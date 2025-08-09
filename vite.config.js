@@ -4,7 +4,12 @@ import { resolve } from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/MekarTek/',
   plugins: [react()],
+  server: {
+    host: '0.0.0.0',  
+    port: 5173         
+  },
   build: {
     rollupOptions: {
       input: {
@@ -14,4 +19,5 @@ export default defineConfig({
       }
     }
   }
+  
 })
