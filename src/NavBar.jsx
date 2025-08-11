@@ -22,7 +22,7 @@ function NavBar() {
         <nav className={`navbar ${isDarkMode ? 'dark' : 'light'}`}>
             <div className='topContainer'>
                 <div className="logo">
-                    <img src={logoSrc} alt="Mekar Danışmanlık" className="logo-icon" />
+                    <img src={logoSrc} alt={t('companyName')} className="logo-icon" />
                     <Link to="/">{t('companyName')}</Link>
                 </div>
                 
@@ -36,6 +36,7 @@ function NavBar() {
                             <option value="tr">TR</option>
                             <option value="en">EN</option>
                             <option value="ar">AR</option>
+                            <option value="es">ES</option>
                             <option value="fr">FR</option>
                             <option value="ru">RU</option>
                         </select>
@@ -66,35 +67,29 @@ function NavBar() {
                     onMouseLeave={() => setIsCorporateDropdownOpen(false)}
                 >
                     <Link to="/corporate" className="corporate-link">
-                        {t('corporate')}
-                        <i className="fas fa-chevron-down"></i>
+                        {t('corporate')} <i className="fa-solid fa-chevron-down"></i>
                     </Link>
                     {isCorporateDropdownOpen && (
                         <div className="dropdown-menu">
                             <Link to="/corporate?section=quality-certificates" className="dropdown-item">
-                                <i className="fas fa-certificate"></i>
                                 {t('corporateQualityCertificates')}
                             </Link>
                             <Link to="/corporate?section=quality-policies" className="dropdown-item">
-                                <i className="fas fa-shield-alt"></i>
                                 {t('corporateQualityPolicies')}
                             </Link>
                             <Link to="/corporate?section=info-security-policies" className="dropdown-item">
-                                <i className="fas fa-lock"></i>
                                 {t('corporateInfoSecurityPolicies')}
                             </Link>
                             <Link to="/corporate?section=memberships" className="dropdown-item">
-                                <i className="fas fa-handshake"></i>
                                 {t('corporateMemberships')}
                             </Link>
                             <Link to="/corporate?section=kvkk-policy" className="dropdown-item">
-                                <i className="fas fa-user-shield"></i>
                                 {t('corporateKVKKPolicy')}
                             </Link>
                         </div>
                     )}
                 </div>
-                <Link to="/references">{t('references')}</Link>
+                <Link to="/references">{t('businessPartners')}</Link>
                 <Link to="/contact">{t('contact')}</Link>
             </div>
         </nav>

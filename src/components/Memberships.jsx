@@ -43,19 +43,19 @@ function Memberships() {
             <div className="membership-footer">
               <div className="membership-benefits">
                 <div className="benefit-item">
-                  <i className="fas fa-globe"></i>
+                  <i className="fa-solid fa-globe"></i>
                   <span>Uluslararası Pazar Erişimi</span>
                 </div>
                 <div className="benefit-item">
-                  <i className="fas fa-handshake"></i>
+                  <i className="fa-solid fa-handshake"></i>
                   <span>Sektörel İş Birliği</span>
                 </div>
                 <div className="benefit-item">
-                  <i className="fas fa-chart-line"></i>
+                  <i className="fa-solid fa-chart-line"></i>
                   <span>İhracat Ağı Genişletme</span>
                 </div>
                 <div className="benefit-item">
-                  <i className="fas fa-lightbulb"></i>
+                  <i className="fa-solid fa-lightbulb"></i>
                   <span>Yenilikçi Çözümler</span>
                 </div>
               </div>

@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
 function Categories() {
   const { t } = useTranslation();
@@ -112,9 +113,23 @@ function Categories() {
                             ))}
                           </ul>
                           <div className="category-footer">
-                            <a className="category-cta-large" href={`/contact?subject=${encodeURIComponent(cat.title)}`}>
-                              {t('categoriesCta')}
-                            </a>
+                            <div className="category-contact-actions">
+                              <Link
+                                className="btn btn-primary"
+                                to={`/contact?subject=${encodeURIComponent(cat.title)}`}
+                              >
+                                {t('categoriesCta')}
+                              </Link>
+                              <a
+                                href="https://wa.me/902323320620"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="whatsapp-link"
+                                aria-label={t('whatsapp')}
+                              >
+                                <i className="fa-brands fa-whatsapp" aria-hidden="true"></i>
+                              </a>
+                            </div>
                           </div>
                         </>
                       ) : (

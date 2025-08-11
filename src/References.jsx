@@ -22,13 +22,6 @@ function References() {
       description: t('industrialRoboticsDesc')
     },
     {
-      name: "Sütban",
-      logo: "https://mekarteknoloji.com.tr/wp-content/uploads/2023/12/sutban-logo.png",
-      website: "https://sutban.com.tr/",
-      category: t('dairyProcessingTech'),
-      description: t('dairyProcessingTechDesc')
-    },
-    {
       name: "Pazarama",
       logo: pazaramaLogo,
       website: "https://www.pazarama.com/",
@@ -69,8 +62,8 @@ function References() {
     <div className="references-page">
       <section className="hero">
         <div className="hero-content fade-in-up">
-          <h1>{t('referencesTitle')}</h1>
-          <p>{t('referencesDescription')}</p>
+          <h1>{t('businessPartners')}</h1>
+          <p>{t('businessPartnersDescription')}</p>
           <div className="hero-chips">
             <span className="hero-chip">{t('businessPartners')}</span>
             <span className="hero-chip">{t('customerSatisfaction')}</span>
@@ -89,12 +82,7 @@ function References() {
           <div className="partners-grid">
             {businessPartners.map((partner, index) => (
               <div key={index} className="partner-card fade-in-up">
-                <a 
-                  href={partner.website} 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="partner-link"
-                >
+                <div className="partner-link">
                   <div className="partner-header">
                     <div className="partner-logo-container">
                       <img 
@@ -120,10 +108,7 @@ function References() {
                     <h3 className="partner-name">{partner.name}</h3>
                     <p className="partner-description">{partner.description}</p>
                   </div>
-                  <div className="partner-footer">
-                                         <span className="partner-link-text">{t('visitWebsite')} →</span>
-                  </div>
-                </a>
+                </div>
               </div>
             ))}
           </div>
