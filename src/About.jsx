@@ -47,7 +47,7 @@ function About() {
           <h2 className="section-title">{t('missionVision')}</h2>
             <div className="services-grid">
               <div className="service-card fade-in-up">
-                <div className="service-icon">🎯</div>
+                <div className="service-icon"><i className="fa-solid fa-bullseye fa-lg"></i></div>
               <h3>{t('mission')}</h3>
               <p>
                 {t('missionDesc')}
@@ -55,7 +55,7 @@ function About() {
             </div>
 
             <div className="service-card fade-in-up">
-              <div className="service-icon">🌟</div>
+              <div className="service-icon"><i className="fa-regular fa-star fa-lg"></i></div>
               <h3>{t('vision')}</h3>
               <p>
                 {t('visionDesc')}
@@ -98,7 +98,7 @@ function About() {
           <h2 className="section-title">{t('serviceAreas')}</h2>
           <div className="services-grid">
             <div className="service-card fade-in-up">
-              <div className="service-icon">📦</div>
+              <div className="service-icon"><i className="fa-solid fa-plane-arrival fa-xl"></i></div>
               <h3>{t('importServices')}</h3>
               <p>
                 {t('importConsultingDesc')}
@@ -106,7 +106,7 @@ function About() {
             </div>
 
             <div className="service-card fade-in-up">
-              <div className="service-icon">🚢</div>
+              <div className="service-icon"><i className="fa-solid fa-plane-departure fa-xl"></i></div>
               <h3>{t('exportServices')}</h3>
               <p>
                 {t('exportConsultingDesc')}
@@ -114,7 +114,7 @@ function About() {
             </div>
 
             <div className="service-card fade-in-up">
-              <div className="service-icon">🏛️</div>
+              <div className="service-icon"><i className="fa-solid fa-file-import fa-xl"></i></div>
               <h3>{t('customsServices')}</h3>
               <p>
                 {t('customsProcessesDesc')}
@@ -122,7 +122,7 @@ function About() {
             </div>
 
             <div className="service-card fade-in-up">
-              <div className="service-icon">🚛</div>
+              <div className="service-icon"><i className="fa-solid fa-truck-front fa-xl"></i></div>
               <h3>{t('logisticsServices')}</h3>
               <p>
                 {t('logisticsServicesDesc')}
@@ -137,7 +137,7 @@ function About() {
           <h2 className="section-title">{t('team')}</h2>
           <div className="services-grid">
             <div className="service-card fade-in-up">
-              <div className="service-icon">👨‍💼</div>
+              <div className="service-icon"><i className="fa-solid fa-people-group fa-xl"></i></div>
               <h3>{t('experiencedExperts')}</h3>
               <p>
                 {t('experiencedExpertsDesc')}
@@ -145,7 +145,7 @@ function About() {
             </div>
 
             <div className="service-card fade-in-up">
-              <div className="service-icon">🌍</div>
+              <div className="service-icon"><i className="fa-solid fa-earth-europe fa-xl"></i></div>
               <h3>{t('globalNetwork')}</h3>
               <p>
                 {t('globalNetworkDesc')}
@@ -153,7 +153,7 @@ function About() {
             </div>
 
             <div className="service-card fade-in-up">
-              <div className="service-icon">📊</div>
+              <div className="service-icon"><i className="fa-solid fa-chart-column fa-xl"></i></div>
               <h3>{t('dataDriven')}</h3>
               <p>
                 {t('dataDrivenDesc')}

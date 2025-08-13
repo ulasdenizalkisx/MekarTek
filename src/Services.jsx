@@ -11,7 +11,7 @@ function Services() {
   const tradeServices = [
     {
       name: t('importConsultingName'),
-      icon: "📦",
+      icon: <i className="fa-solid fa-boxes-stacked fa-xl"></i>,
       description: t('importConsultingDesc'),
       features: [
         t('importConsultingFeature1'),
@@ -22,7 +22,7 @@ function Services() {
     },
     {
       name: t('exportConsultingName'),
-      icon: "🚢",
+      icon: <i className="fa-solid fa-ship fa-xl"></i>,
       description: t('exportConsultingDesc'),
       features: [
         t('exportConsultingFeature1'),
@@ -33,7 +33,7 @@ function Services() {
     },
     {
       name: t('customsProcessesName'),
-      icon: "🏛️",
+      icon: <i className="fa-solid fa-building-columns fa-xl"></i>,
       description: t('customsProcessesDesc'),
       features: [
         t('customsProcessesFeature1'),
@@ -44,7 +44,7 @@ function Services() {
     },
     {
       name: t('logisticsServicesName'),
-      icon: "🚛",
+      icon: <i className="fa-solid fa-truck-fast fa-xl"></i>,
       description: t('logisticsServicesDesc'),
       features: [
         t('logisticsServicesFeature1'),
@@ -55,7 +55,7 @@ function Services() {
     },
     {
       name: t('documentManagementName'),
-      icon: "📋",
+      icon: <i className="fa-solid fa-file fa-xl"></i>,
       description: t('documentManagementDesc'),
       features: [
         t('documentManagementFeature1'),
@@ -66,7 +66,7 @@ function Services() {
     },
     {
       name: t('marketResearchName'),
-      icon: "📊",
+      icon: <i className="fa-solid fa-chart-simple fa-xl"></i>,
       description: t('marketResearchDesc'),
       features: [
         t('marketResearchFeature1'),
@@ -81,7 +81,7 @@ function Services() {
   const techServices = [
     {
       name: t('erpSystemsName'),
-      icon: "💻",
+      icon: <i className="fa-solid fa-laptop fa-xl"></i>,
       description: t('erpSystemsDesc'),
       features: [
         t('erpSystemsFeature1'),
@@ -92,7 +92,7 @@ function Services() {
     },
     {
       name: t('customAutomationName'),
-      icon: "⚙️",
+      icon: <i className="fa-solid fa-gears fa-xl"></i>,
       description: t('customAutomationDesc'),
       features: [
         t('customAutomationFeature1'),
@@ -103,7 +103,7 @@ function Services() {
     },
     {
       name: t('machineDesignName'),
-      icon: "🏭",
+      icon: <i className="fa-solid fa-industry fa-xl"></i>,
       description: t('machineDesignDesc'),
       features: [
         t('machineDesignFeature1'),
@@ -114,7 +114,7 @@ function Services() {
     },
     {
       name: t('engineeringConsultingName'),
-      icon: "👨‍💼",
+      icon: <i className="fa-solid fa-users fa-xl"></i>,
       description: t('engineeringConsultingDesc'),
       features: [
         t('engineeringConsultingFeature1'),
@@ -125,7 +125,7 @@ function Services() {
     },
     {
       name: t('operatorPanelName'),
-      icon: "🖥️",
+      icon: <i className="fa-solid fa-desktop fa-xl"></i>,
       description: t('operatorPanelDesc'),
       features: [
         t('operatorPanelFeature1'),
@@ -136,7 +136,7 @@ function Services() {
     },
     {
       name: t('licensingServicesName'),
-      icon: "📋",
+      icon: <i className="fa-solid fa-circle-check fa-xl"></i>,
       description: t('licensingServicesDesc'),
       features: [
         t('licensingServicesFeature1'),
@@ -147,7 +147,7 @@ function Services() {
     },
     {
       name: t('maintenanceServicesName'),
-      icon: "🔧",
+      icon: <i className="fa-solid fa-hammer fa-xl"></i>,
       description: t('maintenanceServicesDesc'),
       features: [
         t('maintenanceServicesFeature1'),
@@ -158,7 +158,7 @@ function Services() {
     },
     {
       name: t('projectManagementName'),
-      icon: "📊",
+      icon: <i className="fa-solid fa-chart-simple fa-xl"></i>,
       description: t('projectManagementDesc'),
       features: [
         t('projectManagementFeature1'),
@@ -169,7 +169,7 @@ function Services() {
     },
     {
       name: t('smartWarehouseName'),
-      icon: "📦",
+      icon: <i className="fa-solid fa-boxes-stacked fa-xl"></i>,
       description: t('smartWarehouseDesc'),
       features: [
         t('smartWarehouseFeature1'),
@@ -180,7 +180,7 @@ function Services() {
     },
     {
       name: t('technicalConsultingName'),
-      icon: "🎯",
+      icon: <i className="fa-solid fa-people-carry-box fa-xl"></i>,
       description: t('technicalConsultingDesc'),
       features: [
         t('technicalConsultingFeature1'),
@@ -281,32 +281,32 @@ function Services() {
           <h2 className="section-title">{t('expertiseAreas')}</h2>
           <div className="tech-grid">
             <div className="tech-item fade-in-up">
-              <div className="tech-icon">🌍</div>
+              <div className="tech-icon"><i className="fa-solid fa-earth-americas fa-lg"></i></div>
               <h3>{t('internationalTrade')}</h3>
               <p>{t('internationalTradeDesc')}</p>
             </div>
             <div className="tech-item fade-in-up">
-              <div className="tech-icon">🏭</div>
+              <div className="tech-icon"><i className="fa-solid fa-industry fa-lg"></i></div>
               <h3>{t('industrialAutomation')}</h3>
               <p>{t('industrialAutomationDesc')}</p>
             </div>
             <div className="tech-item fade-in-up">
-              <div className="tech-icon">⚙️</div>
+              <div className="tech-icon"><i className="fa-solid fa-gear fa-lg"></i></div>
               <h3>{t('machineDesign')}</h3>
               <p>{t('machineDesignDesc')}</p>
             </div>
             <div className="tech-item fade-in-up">
-              <div className="tech-icon">🖥️</div>
+              <div className="tech-icon"><i className="fa-solid fa-computer fa-lg"></i></div>
               <h3>{t('industrialPC')}</h3>
               <p>{t('industrialPCDesc')}</p>
             </div>
             <div className="tech-item fade-in-up">
-              <div className="tech-icon">📦</div>
+              <div className="tech-icon"><i className="fa-solid fa-warehouse fa-lg"></i></div>
               <h3>{t('smartWarehouse')}</h3>
               <p>{t('smartWarehouseDesc')}</p>
             </div>
             <div className="tech-item fade-in-up">
-              <div className="tech-icon">🔧</div>
+              <div className="tech-icon"><i className="fa-solid fa-microchip fa-lg"></i></div>
               <h3>{t('maintenanceServices')}</h3>
               <p>{t('maintenanceServicesDesc')}</p>
             </div>
