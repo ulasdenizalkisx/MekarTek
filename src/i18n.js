@@ -50,8 +50,8 @@ const resources = {
       
              // Hero Section
        heroTitle: 'Mekar Danışmanlık',
-       heroSubtitle: 'Uluslararası Ticaret Danışmanlığı',
-       heroDescription: 'Global ticaretin karmaşık dünyasında güvenilir partneriniz. İthalat ve ihracat süreçlerinizi optimize ediyoruz.',
+       heroSubtitle: 'İthalat İhracat Danışmanlığı | Uluslararası Ticaret Uzmanı',
+       heroDescription: '2022\'den beri İzmir\'de uluslararası ticaret danışmanlığı hizmeti veriyoruz. İthalat, ihracat, gümrük işlemleri, lojistik çözümleri ve pazar araştırması konularında uzman danışmanlık. Global pazarlarda başarılı olmanız için yanınızdayız.',
       getStarted: 'Başlayın',
       learnMore: 'Daha Fazla Bilgi',
       
@@ -292,20 +292,20 @@ const resources = {
       customerSatisfaction: 'Müşteri Memnuniyeti',
       
       // Home Page
-      trustedPartner: 'Uluslararası Ticaretin Güvenilir Partneri',
+      trustedPartner: 'İzmir\'in Önde Gelen İthalat İhracat Danışmanlık Firması',
       companyName: 'Mekar Danışmanlık',
-      homeDescription: '2022\'den beri global pazarlarda müşterilerimize rehberlik ediyoruz. İthalat ve ihracat süreçlerinizi optimize ediyor, uluslararası ticaretin karmaşık dünyasında başarılı olmanızı sağlıyoruz.',
+      homeDescription: '2022\'den beri İzmir\'de uluslararası ticaret danışmanlığı hizmeti veriyoruz. İthalat, ihracat, gümrük işlemleri, lojistik çözümleri ve pazar araştırması konularında uzman danışmanlık. Türkiye\'nin önde gelen ihracatçı firmalarına hizmet veriyoruz.',
       discoverServices: 'Hizmetlerimizi Keşfedin',
       aboutUs: 'Hakkımızda',
       featuredServices: 'Öne Çıkan Hizmetlerimiz',
       importConsulting: 'İthalat Danışmanlığı',
-      importConsultingDesc: 'Global pazarlardan ürün ithalatı konusunda uzman danışmanlık. Tedarikçi bulma, fiyat analizi ve süreç optimizasyonu.',
+      importConsultingDesc: 'Çin, Almanya, İtalya ve diğer ülkelerden ürün ithalatı konusunda uzman danışmanlık. Tedarikçi bulma, fiyat analizi, kalite kontrol ve süreç optimizasyonu. İzmir\'de güvenilir ithalat danışmanlığı.',
       exportConsulting: 'İhracat Danışmanlığı',
-      exportConsultingDesc: 'Ürünlerinizi global pazarlara açın. Pazar araştırması, müşteri bulma ve ihracat süreçlerinizi yönetiyoruz.',
+      exportConsultingDesc: 'Türkiye\'den Avrupa, Orta Doğu ve dünya pazarlarına ihracat danışmanlığı. Pazar araştırması, müşteri bulma, ihracat belgeleri ve uluslararası pazarlama stratejileri. İzmir ihracat danışmanlığı.',
       customsProcesses: 'Gümrük İşlemleri',
-      customsProcessesDesc: 'Gümrük süreçlerinizi hızlandırıyoruz. Belge yönetimi, vergi hesaplamaları ve gümrük prosedürleri.',
+      customsProcessesDesc: 'İzmir Limanı ve diğer gümrüklerde hızlı gümrük işlemleri. Belge yönetimi, vergi hesaplamaları, gümrük beyannamesi hazırlama ve gümrük prosedürleri danışmanlığı.',
       companyStory: 'Mekar Danışmanlık\'ın Hikayesi',
-      companyStoryDesc: '2022\'de kurulan firmamız, uluslararası ticaretin karmaşık dünyasında müşterilerimize rehberlik etmek amacıyla yola çıktı. Deneyimli ekibimizle, global pazarlarda başarılı olmak isteyen şirketlere kapsamlı danışmanlık hizmetleri sunuyoruz.',
+      companyStoryDesc: '2022\'de İzmir\'de kurulan firmamız, uluslararası ticaretin karmaşık dünyasında müşterilerimize rehberlik etmek amacıyla yola çıktı. Deneyimli ekibimizle, Türkiye\'nin önde gelen ihracatçı firmalarına ve ithalat yapmak isteyen şirketlere kapsamlı danışmanlık hizmetleri sunuyoruz. İzmir\'in stratejik konumu ve liman avantajını kullanarak, uluslararası ticaret süreçlerinizi optimize ediyoruz.',
       companyStoryDesc2: 'Mekar Danışmanlık, müşterileriyle güçlü ve güvene dayalı ilişkiler kurar. Onları sadece birer hizmet alıcısı olarak görmez, aksine birlikte yol aldıkları iş ortakları olarak kabul eder.',
       moreInfo: 'Daha Fazla Bilgi',
       ourNumbers: 'Rakamlarla Biz',
@@ -540,8 +540,8 @@ const resources = {
       
              // Hero Section
        heroTitle: 'Mekar Consulting',
-       heroSubtitle: 'International Trade Consulting',
-       heroDescription: 'Your trusted partner in the complex world of global trade. We optimize your import and export processes.',
+       heroSubtitle: 'Import Export Consulting | International Trade Expert',
+       heroDescription: 'Since 2022, we have been providing international trade consulting services in Izmir. Expert consulting in import, export, customs procedures, logistics solutions and market research. We are here to help you succeed in global markets.',
       getStarted: 'Get Started',
       learnMore: 'Learn More',
       
@@ -766,20 +766,20 @@ const resources = {
       customerSatisfaction: 'Customer Satisfaction',
       
       // Home Page
-      trustedPartner: 'Trusted Partner in International Trade',
+      trustedPartner: 'Leading Import Export Consulting Firm in Izmir',
       companyName: 'Mekar Consulting',
-      homeDescription: 'Since 2022, we have been guiding our customers in global markets. We optimize your import and export processes, ensuring your success in the complex world of international trade.',
+      homeDescription: 'Since 2022, we have been providing international trade consulting services in Izmir. Expert consulting in import, export, customs procedures, logistics solutions and market research. We serve Turkey\'s leading export companies.',
       discoverServices: 'Discover Our Services',
       aboutUs: 'About Us',
       featuredServices: 'Our Featured Services',
       importConsulting: 'Import Consulting',
-      importConsultingDesc: 'Expert consulting on product imports from global markets. Supplier sourcing, price analysis and process optimization.',
+      importConsultingDesc: 'Expert consulting on product imports from China, Germany, Italy and other countries. Supplier sourcing, price analysis, quality control and process optimization. Reliable import consulting in Izmir.',
       exportConsulting: 'Export Consulting',
-      exportConsultingDesc: 'Open your products to global markets. We manage market research, customer acquisition and export processes.',
+      exportConsultingDesc: 'Export consulting from Turkey to European, Middle Eastern and world markets. Market research, customer acquisition, export documentation and international marketing strategies. Izmir export consulting.',
       customsProcesses: 'Customs Processes',
-      customsProcessesDesc: 'We accelerate your customs processes. Document management, tax calculations and customs procedures.',
+      customsProcessesDesc: 'Fast customs procedures at Izmir Port and other customs. Document management, tax calculations, customs declaration preparation and customs procedures consulting.',
       companyStory: 'Mekar Consulting\'s Story',
-      companyStoryDesc: 'Founded in 2022, our company set out to guide our customers in the complex world of international trade. With our experienced team, we provide comprehensive consulting services to companies that want to succeed in global markets.',
+      companyStoryDesc: 'Founded in 2022 in Izmir, our company set out to guide our customers in the complex world of international trade. With our experienced team, we provide comprehensive consulting services to Turkey\'s leading export companies and companies that want to import. We optimize your international trade processes by utilizing Izmir\'s strategic location and port advantage.',
       companyStoryDesc2: 'Mekar Consulting builds strong and trust-based relationships with its customers. It does not see them merely as service recipients, but rather as business partners with whom they travel together.',
       moreInfo: 'Learn More',
       ourNumbers: 'Our Numbers',
@@ -1034,8 +1034,8 @@ const resources = {
 
       // Hero Section
       heroTitle: 'Mekar Consultoría',
-      heroSubtitle: 'Consultoría de Comercio Internacional',
-      heroDescription: 'Su socio de confianza en el complejo mundo del comercio global. Optimizamos sus procesos de importación y exportación.',
+      heroSubtitle: 'Consultoría de Importación y Exportación | Experto en Comercio Internacional',
+      heroDescription: 'Desde 2022, brindamos servicios de consultoría en comercio internacional en Izmir. Consultoría experta en importación, exportación, trámites aduaneros, soluciones logísticas e investigación de mercados. Estamos aquí para ayudarle a tener éxito en los mercados globales.',
       getStarted: 'Comenzar',
       learnMore: 'Más información',
 
