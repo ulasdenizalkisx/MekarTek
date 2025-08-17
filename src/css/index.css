@@ -2536,7 +2536,29 @@ textarea::placeholder {
   .category-header { grid-template-columns: 1fr auto; }
   .category-meta { display: none; }
   .category-contact-actions {
-    flex-direction: column;
+    flex-direction: row;
     gap: 0.75rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .category-contact-actions {
+    gap: 0.5rem;
+  }
+  
+  .category-contact-actions .btn {
+    font-size: 0.9rem;
+    padding: 0.5rem 0.75rem;
+  }
+  
+  .whatsapp-link {
+    width: 36px;
+    height: 36px;
+  }
+  
+  .whatsapp-link i {
+    font-size: 16px;
   }
 }
