@@ -62,13 +62,20 @@ function NavBar() {
                 <Link to="/categories">{t('categoriesNav')}</Link>
                 <Link to="/about">{t('about')}</Link>
                 <div 
-                    className="corporate-dropdown"
+                    className={`corporate-dropdown ${isCorporateDropdownOpen ? 'open' : ''}`}
                     onMouseEnter={() => setIsCorporateDropdownOpen(true)}
                     onMouseLeave={() => setIsCorporateDropdownOpen(false)}
                 >
-                    <Link to="/corporate" className="corporate-link">
+                    <button 
+                        className="corporate-link"
+                        onClick={toggleCorporateDropdown}
+                        onTouchStart={(e) => {
+                            e.preventDefault();
+                            toggleCorporateDropdown();
+                        }}
+                    >
                         {t('corporate')} <i className="fa-solid fa-chevron-down"></i>
-                    </Link>
+                    </button>
                     {isCorporateDropdownOpen && (
                         <div className="dropdown-menu">
                             <Link to="/corporate?section=quality-certificates" className="dropdown-item">
