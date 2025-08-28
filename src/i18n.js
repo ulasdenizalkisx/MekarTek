@@ -104,6 +104,9 @@ const resources = {
       telegram: 'Telegram',
       sendMessage: 'Mesaj Gönderin',
       subject: 'Konu',
+      sending: 'Gönderiliyor...',
+      messageSentSuccess: 'Mesajınız başarıyla gönderildi!',
+      messageSentError: 'Mesaj gönderilirken bir hata oluştu. Lütfen tekrar deneyin.',
       
       // Footer
       allRightsReserved: 'Tüm hakları saklıdır',
@@ -594,6 +597,9 @@ const resources = {
       telegram: 'Telegram',
       sendMessage: 'Send Message',
       subject: 'Subject',
+      sending: 'Sending...',
+      messageSentSuccess: 'Your message has been sent successfully!',
+      messageSentError: 'An error occurred while sending the message. Please try again.',
       
       // Footer
       allRightsReserved: 'All rights reserved',
@@ -1088,6 +1094,9 @@ const resources = {
       telegram: 'Telegram',
       sendMessage: 'Enviar Mensaje',
       subject: 'Asunto',
+      sending: 'Enviando...',
+      messageSentSuccess: '¡Su mensaje ha sido enviado exitosamente!',
+      messageSentError: 'Ocurrió un error al enviar el mensaje. Por favor, inténtelo de nuevo.',
 
       // Footer
       allRightsReserved: 'Todos los derechos reservados',
